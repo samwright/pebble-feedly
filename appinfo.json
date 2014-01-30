@@ -1,0 +1,18 @@
+{
+  "uuid": "9eadaf2b-ebbc-4b31-ac74-1040245cb7c1",
+  "shortName": "feedly-pebble",
+  "longName": "Feedly Pebble App",
+  "capabilities": [ "configurable" ],
+  "companyName": "Sam Wright",
+  "versionCode": 1,
+  "versionLabel": "1.0.0",
+  "watchapp": {
+    "watchface": false
+  },
+  "appKeys": {
+    "operation": 0
+  },
+  "resources": {
+    "media": []
+  }
+}
