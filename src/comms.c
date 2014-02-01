@@ -36,6 +36,9 @@ void comm_init() {
   app_message_open(inbound_size, outbound_size); // We only need large buffer for inbox
 }
 
+// Taken from sarfata on stackoverflow.com:
+// https://stackoverflow.com/questions/21150193/logging-enums-on-the-pebble-watch/21172222#21172222
+
 char *translate_error(AppMessageResult result) {
   switch (result) {
     case APP_MSG_OK: return "APP_MSG_OK";
